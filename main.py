@@ -1,8 +1,8 @@
 print("Welcome to a Priate's life Mad Lib!".center(60,'-'))
 
 User_name = input("Enter in your name: ") #print(user_name.title)
-Date = input("Enter in a month, date, and year(mm/dd/yy): ")
-print("I will now ask you for 5 nouns, 5 verbs, 3 adjectives, and 2 adverbs")
+date = input("Enter in a month, date, and year(mm/dd/yy): ")
+print("Nexat I will  ask you for 5 nouns, 5 verbs, 3 adjectives, and 2 adverbs")
 
 print("I will first ask you for the nouns!")
 noun_1 = input("Enter in the first noun please: ")
@@ -27,11 +27,6 @@ print("Finally I will ask you for the adverbs!")
 adverb_1 = input("Enter in the first adverb please: ")
 adverb_2 = input("Enter in the second adverb please: ")
 
-print(f"Now I will tell you the story of Captain {noun_1}'s life.")
-print(f"Once upon a time, there was a fearless pirate named Captain {noun_1). 
-      He sailed the treacherous seas on his ship, the (noun). 
-      Every morning, he would (verb) with excitement as he prepared for the day ahead. 
-      His crew, made up of (adjective) sailors, would gather to (verb) their weapons and (verb) for adventure.
-      One day, they discovered a hidden (noun) on a distant island. 
-      The treasure was said to be guarded by a (adjective) beast that roamed the land (adverb). 
-      Undeterred, Captain (noun) and his crew set off to claim their fortune!")
+print(f"Your name is {User_name.title()}")
+print(f"Today's date is {date}")
+print(f"Once upon a time, in a faraway {noun_1}, there lived a {adjective_1} pirate named Captain {noun_2.title()}.\nEvery day, he would {verb_1} on his magnificent {noun_3} and sail across the {adjective_2} sea in search of {noun_4}.\nWith his trusty crew, they would {verb_2} through storms and {verb_3} hidden treasures.\nOne day, as they were {verb_4} towards a mysterious island, they spotted a {adjective_3} ship on the horizon.\nCaptain {noun_2.title()} quickly shouted to his crew to {verb_5} the sails and prepare for battle.\nThey fought {adverb_1} against the enemy pirates, swinging their {noun_5} and shouting battle cries.\nIn the end, Captain {noun_2.title()} and his crew emerged victoriously, their hearts filled with joy and laughter.\nAnd so, they continued their adventures, living {adverb_2} ever after on the high seas!")
